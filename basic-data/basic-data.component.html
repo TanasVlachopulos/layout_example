@@ -1,0 +1,12 @@
+<div *ngIf="standNumber" id="numberOf" class="station-number">
+  <span>{{ standNumber }}</span>
+</div>
+<div *ngIf="showDate" class="info-time">
+  <span id="time">{{ time }}</span>
+</div>
+<div *ngIf="showDate" class="info-date">
+  <span id="date">{{ date }}</span>
+</div>
+<div class="info-qr">
+  <img src="assets/qr.png" alt="QR code" />
+</div>

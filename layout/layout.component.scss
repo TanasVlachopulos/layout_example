@@ -1,0 +1,13 @@
+:host > .container {
+  display: grid;
+  grid-template-columns: 1000px auto 279px;
+  grid-template-rows: 563px auto 157px;
+  grid-template-areas:
+    'content empty info'
+    'space space space'
+    'meterlogic meterlogic meterlogic';
+  justify-items: stretch;
+  justify-content: stretch;
+  width: 100vw;
+  height: 100vh;
+}

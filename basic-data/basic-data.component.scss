@@ -1,0 +1,34 @@
+:host {
+  grid-area: info;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+:host > div {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.station-number {
+  font-weight: 900;
+  font-size: 120px;
+}
+
+.info-date {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.info-time {
+  font-weight: 300;
+  font-size: 55px;
+}
+
+.info-qr {
+  padding-top: 4em;
+}
+
+.info-qr img {
+  width: 160px;
+}

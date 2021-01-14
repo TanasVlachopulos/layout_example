@@ -1,0 +1,15 @@
+<div #videoContainer class="video-container">
+  <video
+    #videoPlayer
+    id="video-element"
+    (ended)="videoEnded()"
+    (canplaythrough)="canPlay()"
+    (play)="isPlaying()"
+    (loadstart)="loadStarted()"
+    (timeupdate)="onTimeUpdate()"
+    poster="assets/black.png"
+  ></video>
+</div>
+<div class="image-container" [hidden]="hideImage">
+  <img #imagePlayer />
+</div>

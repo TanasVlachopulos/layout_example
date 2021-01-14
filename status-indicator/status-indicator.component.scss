@@ -1,0 +1,46 @@
+.dot-indicator {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.blink {
+  animation: blink 1.5s infinite;
+}
+
+.blue {
+  background-color: #00e5ff;
+}
+
+.purple {
+  background-color: #7B1FA2;
+}
+
+.red {
+  background-color: #dd2c00;
+}
+
+.orange {
+  background-color: #F57F17;
+}
+
+.green {
+  background-color: #64dd17;
+}
+
+.gray {
+  background-color: gray;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
